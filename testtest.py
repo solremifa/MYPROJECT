@@ -1,14 +1,12 @@
-# 정수 4 개를입력받아 평균을 반환하는 함수를 작성하시
 
 
-def sum (input1, input2, input3, input4):
-    answer = input1 + input2 + input3 + input4
-    return answer
+bar = 3
 
+def test():
+    bar = 2
+    print(bar)
 
-def avg(input1, input2, input3, input4):
-    return sum(input1, input2, input3, input4) / 4
+test()    
+print(bar)
 
-
-print(sum(2, 2, 1, 3))
-print(avg(2, 2, 1, 3)) 
+# 3번 라인은 전역변수고 6번 라인은 지역변수이기 때문이지 
