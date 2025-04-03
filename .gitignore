@@ -1,0 +1,5 @@
+*.log
+my_practice/
+Untitled-1.py
+__pycache__/
+node_modules/
